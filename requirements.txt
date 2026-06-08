@@ -1,0 +1,11 @@
+pandas
+python-dotenv
+chromadb
+langchain
+langchain-community
+langchain-openai
+langgraph
+openai
+fastapi
+uvicorn
+ragas
