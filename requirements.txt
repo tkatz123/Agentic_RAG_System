@@ -2,6 +2,7 @@ pandas
 python-dotenv
 chromadb
 langchain
+langchain-text-splitters
 langchain-community
 langchain-openai
 langgraph

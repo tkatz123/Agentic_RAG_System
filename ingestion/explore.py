@@ -10,4 +10,4 @@ print(" ")
 print("Rows, Columns")
 print(df.shape)
 
-print(df['Job_Description'].str.len().describe())
+print(df['job_description'].str.len().describe())
