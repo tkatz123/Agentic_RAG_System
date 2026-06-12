@@ -14,7 +14,7 @@ def rag(question):
     db = Chroma(persist_directory = "data/chroma_db", embedding_function = OpenAIEmbeddings())
 
     #Retriving top 5 relevant chunks
-    docs = db.similarity_search(question, k = 5)
+    docs = db.similarity_search(question, k = 10)
 
     #Combining chunks into single string
     context = "\n\n".join([doc.page_content for doc in docs])
