@@ -1,0 +1,21 @@
+question,expected_source,source_type
+What Python libraries does Lockheed Martin require for their AI engineer role?,Lockheed Martin,job_posting
+What does the OpenAI Codex Core Agent team work on?,OpenAI,job_posting
+What kind of AI agent work does General Motors need an AI engineer to do?,General Motors,job_posting
+What clearance or government experience does Booz Allen Hamilton require?,Booz Allen Hamilton,job_posting
+What domain does RA Capital Management invest in and how does that relate to their AI engineer role?,RA Capital Management,job_posting
+What industries does BIP US serve and what AI capabilities do they need?,BIP US,job_posting
+What is the RAGAS framework and what does it evaluate?,Ragas: Automated Evaluation of Retrieval Augmented Generation,arxiv
+What is hybrid search and how does it improve RAG accuracy?,Blended RAG: Improving RAG (Retriever-Augmented Generation) Accuracy with Semantic Search and Hybrid Query-Based Retrievers,arxiv
+What are the main components of a RAG architecture according to a comprehensive review?,Engineering the RAG Stack: A Comprehensive Review of the Architecture and Trust Frameworks for Retrieval-Augmented Generation Systems,arxiv
+How does autoregressive retrieval augmentation differ from standard RAG?,AR-RAG: Autoregressive Retrieval Augmentation for Image Generation,arxiv
+What machine learning frameworks does Lockheed Martin list as required experience?,Lockheed Martin,job_posting
+What agent frameworks or tools does General Motors mention for their AI agent engineer role?,General Motors,job_posting
+What programming languages beyond Python does Lockheed Martin expect AI engineers to know?,Lockheed Martin,job_posting
+What does BIP US say about their growth and global presence?,BIP US,job_posting
+How does the RAGAS paper propose to evaluate RAG pipelines without reference answers?,Ragas: Automated Evaluation of Retrieval Augmented Generation,arxiv
+What retrieval methods does the Blended RAG paper compare?,Blended RAG: Improving RAG (Retriever-Augmented Generation) Accuracy with Semantic Search and Hybrid Query-Based Retrievers,arxiv
+What experience level does Booz Allen Hamilton require for their AI engineer role?,Booz Allen Hamilton,job_posting
+What does OpenAI say about the production systems the Codex team owns?,OpenAI,job_posting
+What is the Hydra model and how does it combine retrieval and generation?,Hydra: Unifying Document Retrieval and Generation in a Single Vision-Language Model,arxiv
+What does RA Capital Management say about the scope of their investment strategy?,RA Capital Management,job_posting
