@@ -13,7 +13,7 @@ def rag(question):
     #Loading database object
     db = Chroma(persist_directory = "data/chroma_db", embedding_function = OpenAIEmbeddings())
 
-    #Retriving top 5 relevant chunks
+    #Retriving top 10 relevant chunks
     docs = db.similarity_search(question, k = 10)
 
     #Combining chunks into single string
