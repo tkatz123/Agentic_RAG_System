@@ -145,8 +145,6 @@ Syracuse University
 
 [GitHub Profile](https://github.com/tkatz123) • [LinkedIn](https://www.linkedin.com/in/tylerkatz1/)
 
----
-
 ## License
 
 This projest is licensed under the MIT Licesne. See the LICESNE for details.
