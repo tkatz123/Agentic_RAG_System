@@ -27,7 +27,8 @@ def ask(request: QuestionRequest) -> AnswerResponse:
         "query": request.question,
         "docs": [],
         "relevant": False,
-        "answer": ""
+        "answer": "",
+        "retries": 0
     })
 
     sources = []

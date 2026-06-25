@@ -15,6 +15,7 @@ class AgentState(TypedDict):
     docs: List[Document]
     relevant: bool
     answer: str
+    retries: int
 
 def retrieve(state: AgentState) -> dict:
     
@@ -84,7 +85,9 @@ def reformulate(state: AgentState) -> dict:
         input = input_string
     )
 
-    return {'query': response.output_text}
+    retries_count = state['retries'] + 1
+
+    return {'query': response.output_text, 'retries': retries_count}
 
 def generate(state: AgentState) -> dict:
 
@@ -125,7 +128,7 @@ def build_graph():
     graph.add_edge("retrieve", "grade_chunks")
     graph.add_conditional_edges(
         "grade_chunks",
-        lambda state: "generate" if state["relevant"] else "reformulate"
+        lambda state: "generate" if state["relevant"] or state["retries"] >= 2 else "reformulate"
     )
     graph.add_edge("reformulate", "retrieve")
     graph.add_edge("generate", END)
@@ -141,7 +144,8 @@ if __name__ == "__main__":
         "query": "What Python skills do AI engineer roles require?",
         "docs": [],
         "relevant": False,
-        "answer": ""
+        "answer": "",
+        "retries": 0
     })
 
     print(result["answer"])
